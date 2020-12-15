@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player background player project </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- preloader -->
+
+<div class="container">
+    <div class="preloader">
+        <img src="./preloader.gif" alt="">
+    </div>
+</div>
+
+<!-- header -->
+
+<header>
+    <div class="video-container">
+        <video  controls autoplay muted loop class="video" >
+            <source src="video.mp4">
+        </video>
+    </div>
+    <h4>Welcome to PyJonathon</h4>
+    <!-- video switch -->
+    <button class="switch-btn">
+        <span>play</span>
+        <span>pause</span>
+        <span class="switch"></span>
+    </button>
+</header>
+
+<!-- javascript -->
+    <script src="./app.js"></script>
+</body>
+</html>
